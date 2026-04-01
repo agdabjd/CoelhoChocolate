@@ -10,11 +10,10 @@
 <body>
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 		<div class="container-fluid">
-			<a class="navbar-brand" href="#">CoelhoChocolate</a>
-			<a class="nav-link active text-light" href="">Produtos</a>
-			<a class="nav-link active text-light" href="">Fornecedores</a>
+			<a class="navbar-brand" href="{{ route('home') }}">CoelhoChocolate</a>
+			<a class="nav-link active text-light" href="{{ route('produtos.index') }}">Produtos</a>
+			<a class="nav-link active text-light" href="{{ route('fornecedores.index') }}">Fornecedores</a>
 			<p class="text-light">Dando sabor a melhor data do ano!</p>
-			
 		</div>
 	</nav>
 
