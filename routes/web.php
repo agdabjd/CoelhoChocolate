@@ -10,6 +10,8 @@ Route::get('/', function () {
 
 // Rotas para Produtos
 Route::get('/produtos', [ProdutoController::class, 'index'])->name('produtos.index');
+Route::post('/produtos', [ProdutoController::class, 'store'])->name('produtos.store');
+Route::delete('/produtos/{id}', [ProdutoController::class, 'destroy'])->name('produtos.destroy');
 
 // Rotas para Fornecedores  
 Route::get('/fornecedores', [FornecedorController::class, 'index'])->name('fornecedores.index');

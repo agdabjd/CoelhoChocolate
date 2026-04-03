@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Chocolate extends Model
 {
+    protected $table = 'chocolates';
     protected $fillable = ['nome', 'tipo', 'gramas', 'fornecedor_id'];
 
     public function fornecedor()
