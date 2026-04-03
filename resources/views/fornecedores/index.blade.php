@@ -69,12 +69,12 @@
                                                 <form action="{{ route('fornecedores.destroy', $fornecedor->id) }}" method="POST" style="display:inline;">
                                                     @csrf
                                                     @method('DELETE')
-                                                    <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Tem certeza que deseja deletar este fornecedor?');">
+                                                    <button type="submit" class="btn btn-sm btn-dark" onclick="return confirm('Tem certeza que deseja deletar este fornecedor?');">
                                                         Deletar
                                                     </button>
                                                 </form>
                                             @else
-                                                <button type="button" class="btn btn-sm btn-danger" disabled title="Fornecedor possui chocolates cadastrados">
+                                                <button type="button" class="btn btn-sm btn-dark" disabled title="Fornecedor possui chocolates cadastrados">
                                                     Deletar
                                                 </button>
                                             @endif
