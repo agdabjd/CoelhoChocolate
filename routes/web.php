@@ -15,3 +15,5 @@ Route::delete('/produtos/{id}', [ProdutoController::class, 'destroy'])->name('pr
 
 // Rotas para Fornecedores  
 Route::get('/fornecedores', [FornecedorController::class, 'index'])->name('fornecedores.index');
+Route::post('/fornecedores', [FornecedorController::class, 'store'])->name('fornecedores.store');
+Route::delete('/fornecedores/{id}', [FornecedorController::class, 'destroy'])->name('fornecedores.destroy');
