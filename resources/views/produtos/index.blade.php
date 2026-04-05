@@ -6,7 +6,7 @@
 
 @section('content')
     <div class="container mt-4">
-        <h1 class="display-4 mb-4">Chocolates</h1>
+        <h1 class="display-4 mb-4">Chocolates de Páscoa</h1>
 
         @if ($errors->any())
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -32,8 +32,8 @@
                 <h2>Chocolates Cadastrados</h2>
                 @if ($chocolates->count() > 0)
                     <div class="table-responsive">
-                        <table class="table table-striped table-hover">
-                            <thead class="table-dark">
+                        <table class="table table-striped table-dark table-hover">
+                           <thead style="background-color: #2d1b18;">
                                 <tr>
                                     <th>ID</th>
                                     <th>Nome</th>
@@ -73,8 +73,8 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header bg-dark text-white">
+                <div class="card shadow">
+                    <div class="card-header text-white" style="background-color: #2d1b18;">
                         <h5 class="mb-0">Cadastrar Novo Chocolate</h5>
                     </div>
                     <div class="card-body">
