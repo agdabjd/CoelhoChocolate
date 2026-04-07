@@ -50,8 +50,9 @@ Essa funcionalidade facilita a realização de testes e demonstrações do siste
 - Laravel  
 - MySQL  
 - Blade  
-- Bootstrap  
+- Bootstrap
 
-## Como executar o projeto
+## Alunas
 
-1. Clonar o repositório:
+Agda Beatriz Jedliczka Domingues - RA 60000631
+Letícia Masquietto de Oliveira Silva - RA 60300765

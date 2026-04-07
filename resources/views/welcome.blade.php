@@ -9,7 +9,7 @@
         Bem-vindo ao melhor sistema de controle de chocolates e fornecedores 
     </p>
 
-    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" 
+    <img src="{{ asset('easter-bunny.png') }}"
          class="img-fluid mt-4" 
          style="max-width: 150px;">
 </div>
